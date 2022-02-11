@@ -574,18 +574,30 @@
 </ul>
 <div class="margin sidebar">
 <p class="sidebar-title"></p>
-<p><strong>Pixel-wise classification</strong> is a basic task that’s used in remote sensing to assign a semantic class (vegetation, buildings, vehicles, roads) accurately to every individual pixel of an image. At low resolutions, cluster and classification methods are used, such as k-means, neural networks, support vector machines, random forest, and boosting. On the other hand, these methods cannot be used due to being sensitive to noise, the lack of semantic meaning of objects, and the difficulty of acquiring object-level information.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Pixel-wise classification</strong></p>
+<p>Pixel-wise classification is a basic task that’s used in remote sensing to assign a semantic class (vegetation, buildings, vehicles, roads) accurately to every individual pixel of an image. At low resolutions, cluster and classification methods are used, such as k-means, neural networks, support vector machines, random forest, and boosting. On the other hand, these methods cannot be used due to being sensitive to noise, the lack of semantic meaning of objects, and the difficulty of acquiring object-level information.</p>
 <p><em><strong>Adapted from <a class="reference external" href="https://www.mdpi.com/2220-9964/7/3/110">https://www.mdpi.com/2220-9964/7/3/110</a></strong></em></p>
 </div>
+</div>
+<div class="margin sidebar">
+<p class="sidebar-title"></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><strong>Semantic segmentation</strong> is a computer vision task where we separate and label specific parts of an image according to what is shown. The goal of this task is to label each pixel of an image with a corresponding class of what’s being shown.</p>
+<p><strong>Semantic segmentation</strong></p>
+<p>Semantic image segmentation is a computer vision task where we separate and label specific parts of an image according to what is shown. The goal of this task is to label each pixel of an image with a corresponding class of what’s being shown.</p>
 <p><em><strong>Adapted from <a class="reference external" href="https://www.jeremyjordan.me/semantic-segmentation/">https://www.jeremyjordan.me/semantic-segmentation/</a></strong></em></p>
 </div>
+</div>
+<div class="margin sidebar">
+<p class="sidebar-title"></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><strong>Instance segmentation</strong>  is a more difficult computer vision task that needs the prediction of object instances and their per-pixel segmentation mask. This task is basically a mix of semantic segmentation and object detection. It first detects objects to create bounding boxes around each object instance, and then performs binary segmentation inside the bounding boxes to separate the foreground and the background.</p>
+<p><strong>Instance segmentation</strong></p>
+<p>Instance segmentation is a more difficult computer vision task that needs the prediction of object instances and their per-pixel segmentation mask. This task is basically a mix of semantic segmentation and object detection. It first detects objects to create bounding boxes around each object instance, and then performs binary segmentation inside the bounding boxes to separate the foreground and the background.</p>
 <p><em><strong>Adapted from <a class="reference external" href="https://towardsdatascience.com/single-stage-instance-segmentation-a-review-1eeb66e0cc49">https://towardsdatascience.com/single-stage-instance-segmentation-a-review-1eeb66e0cc49</a></strong></em></p>
+</div>
 </div>
 <ul class="simple">
 <li><p>In addition, we want to know if fields are actively being used or not. This means we need to generate distinct labels for active and inactive center pivots.</p></li>
